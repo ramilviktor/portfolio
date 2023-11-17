@@ -1,0 +1,104 @@
+/*Styles.css*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color:whitesmoke;
+}
+    /*header colors & backgrounds*/
+header h1 {
+    background-color:black;
+    color:whitesmoke;
+    font-size: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+section h2 {
+    background-color:black;
+    color:whitesmoke;
+    font-size: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+section h3 {
+    background-color:black ;
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+    /*image borders*/
+.ram {
+    border-radius: 10px;
+    border: 2px solid;
+    color: red;
+}
+
+.designs {
+    border-radius: 10px;
+    border: 2px solid;
+    color: red;
+}
+    /*centering headers*/
+h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  /* unvisited link */
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color:red;
+    color: white;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color:lightgray;}
+
+  /*selection colors*/
+  ::selection {
+    background-color:red ;
+    color:white
+  }
+  
+  
