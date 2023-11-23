@@ -3,10 +3,16 @@
 body {
     background-color:whitesmoke;
 }
+
+.container {
+  display: flex;
+}
+.container {
+  flex-direction: row;
+}
     /*header colors & backgrounds*/
-header h1 {
-    background-color:black;
-    color:whitesmoke;
+header h1{
+    color:black;
     font-size: 45px;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -100,5 +106,14 @@ h1 {
     background-color:red ;
     color:white
   }
-  
+  /*footer*/
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
   
