@@ -3,33 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="ramils personal portfolio">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="script.js" async defer></script>
     <title>Ramils Personal Portfolio</title>
 </head>
 
 <body>
 <header>
 </main>
-    <h1>Ramils Personal Portfolio</h1>
+<h1>Ramils Personal Portfolio</h1>
+<div class="nav bar">
+      <nav class="menu">
+        <ul>
+          <li><a class="button" href="#About-Me">About Me</a></li>
+          <li><a class="button" href="#My-Hobbies">My Hobbies</a></li>
+          <li><a class="button" href="#My-Goals">My Goals</a></li>
+          <li><a class="button" href="#Designs">Designs</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <button id="alert">Subscribe</button>
     <!-- EASTER EGG -->
 </header>
 <main>  
     
-  <section>
+  <section id="About-Me">
     <h2>About Me</h2>
     <figure>
     <img class="ram" src="https://cdn.discordapp.com/attachments/1017546101580103751/1172005453845237780/IMG_2370.jpg?ex=655ebe23&is=654c4923&hm=c08743f72b579953baea8fbb99144cb410e1a74b0e3e8d9265bf38f4d8e08e05&" width="300px">
     <figcaption>Ramil Sarmiento 2023</figcaption>
   </figure>
       <p> My name is Ramil and I am 18 years old. I have a dog named Beau who I got on halloween of 2020! I am currently attending SAIT as a Interactive Design: Graphic Design student. My favourtite type of music is R&B. For an example click the button below. I also love playing basketball and fashion. </p>
+      
     <button><a href="https://www.youtube.com/watch?v=bi28CVlg4TA" target="_blank"> click this for music</a></button>
   </section>
   <aside>
       <h3>A little about Beau</h3>
     <p>Beau is 3 years old and we got him on halloween of 2020, ever since then he has been the bestest friend I could ever ask for.</p>
   </aside>
-<section>
+<section id="My-Hobbies">
   <h3>My Hobbies</h3>
   <ul>
     <li>Basketball</li>         
@@ -37,11 +51,14 @@
     <li>Eating</li>
     <li>Going to the Gym</li>
   </ul>
+  </section>
+  <section id="My-Goals">
   <h3>My Goals</h3>
   <ol>
     <li>Graduate</li>
     <li>Become a Graphic Designer</li>
     <li>Get a 2000 <a href="https://unsplash.com/photos/a-white-car-on-a-street-g0SUtLa5XJw">Acura Integra</a></li>
+</section>
 </ol>
 </section>
 <h3>My Top 3 Favourite Basketball Players</h3>
@@ -74,14 +91,18 @@
             <h2> These are some designs I've made</h2>
             <p>I made these designs for a portfolio project.</p>
         </section>
+        <section id="Designs">
     <firgure>
         <img class="designs" src="https://cdn.discordapp.com/attachments/1017546101580103751/1172007265516146758/example.png?ex=655ebfd2&is=654c4ad2&hm=e4c920ce51abf29b2cf3add84af8b5cd4bf898488d01dff30241ecae7b11244c&" width="300px">
         <figcaption>T-Shirt designs by Ramil Sarmiento 2023</figcaption>
         <img alt="3 different shirt designs, one with a cross, one with a sunflower, and one with stars"> 
-    </figure>
+     </section>
+      </figure>
         <h3> SAIT</h3>
          <p>Click this link to visit the SAIT</p>
        <a href="https://www.sait.ca/"> <p> click here</p> </a>
+      
+      </div>
         <h3>Contact</h3>
         <table>
         <tr>
@@ -93,11 +114,16 @@
           <td>(403)111-1111</td>
          </tr>
         </table> 
+        <div class="display_flex">
+        <p id="counter"></p>
+        <button id="clicker">Press Me</button>
+        <ol id="numbers">
+        </ol>
 <body>
 
 </main>
     <footer>
-        &copy; Ramil Sarmiento 2023
+       Ramil Sarmiento <p id="year"></p> &copy;
     </footer>
 </body>
 </html>
